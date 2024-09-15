@@ -1,23 +1,28 @@
 /* General body styles */
 body {
     /* background-color: bisque; */
+    height: 100vh;
     margin: 0;
     padding: 0px;
     box-sizing: border-box;
-    font-family: Arial, sans-serif;
+    /* font-family: Arial, sans-serif; */
 }
 
 /* Display box styling */
 #display_box {
+    height: 100vh;
+    width: 75%;
     text-shadow: 1px -1px 1px green;
     background-color: orange;
-    padding: 20px;
+    /* padding: 20px; */
+    text-align:center;
 }
 
 
 /* Social link box styling */
 #social_link_box {
-    width:25%;
+    height: 100vh;
+    width: 25%;
     text-shadow: 1px -1px 1px green;
     background-color: rgb(75, 186, 246);
     border: 2px solid gray;
